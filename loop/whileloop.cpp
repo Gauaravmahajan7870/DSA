@@ -1,14 +1,22 @@
 #include<iostream>
 using namespace std;
 int main(){
- int n;
- cin>>n;
-  int sum=0;
-    for (int i=n;i<=10;i++){
-     sum+=i;
+  int i=1; 
+  while (i<=5){
+     cout<<i<<endl;
+     i++;
+  }
+ //example 1
 
-   }
-    cout<<sum<<endl;
+// int n;
+// cin>>n;
+// int sum=0;
 
-   return 0;
+// int i=1;
+// while (i<=n){
+//     sum+=i;
+//     i++;
+// }
+//  cout<<sum<<endl;*/
+ return 0;
 }
