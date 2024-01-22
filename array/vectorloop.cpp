@@ -3,23 +3,23 @@
 using namespace std;
 int main(){
 vector<int>v;
-for (int i=0;i<5;i++){
+for (int i=0;i<5;i++){//for loop
     int ele;
     cin>>ele;
-    v.push_back(ele);
+    v.push_back(ele);//tp push element
 }
-for (int i=0;i<v.size();i++){
     cout<<v[i]<<" ";
-}
+for (int i=0;i<v.size();i++){ 
     cout<<endl;
 
-  for (int ele :v){
+  for (int ele :v){ //for each loop
+}
     cout<<ele<<" ";
 
   }
   cout<<endl;
-  
-  int idx=0;
+
+  int idx=0;//while loop
   while(idx<v.size()){
     cout<<v[idx]<<" ";
     idx++;
