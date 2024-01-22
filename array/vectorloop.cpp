@@ -18,7 +18,7 @@ for (int i=0;i<v.size();i++){
 
   }
   cout<<endl;
-
+  
   int idx=0;
   while(idx<v.size()){
     cout<<v[idx]<<" ";
