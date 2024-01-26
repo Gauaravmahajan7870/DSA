@@ -1,24 +1,24 @@
-//count of element strictly greater than value X
+//count num of element strictly greater than value X
 #include<iostream>
 #include<vector>
 using namespace std;
 int main(){
 
-vector<int>v(6);
-for(int i=0;i<6;i++){
+ vector<int>v(5); 
+ for(int i=0;i<v.size();i++){
     cin>>v[i];
-}
-
- cout<<"enter the x :";
- int x;
- cin>>x;
-
- int occurence=0;
- for (int i=0;i<6;i++){
-    if(v[i]>x){
-        occurence++;
-    }
  }
- cout<<occurence;
+ cout<<"Enter num X :";
+ int num =0;
+ cin>>num;
+
+ int count =0;
+     for (int i=0;i<v.size();i++){
+         if(v[i]>num){
+             count++;
+     }
+ }
+     cout<<count<<endl;
+
 return 0;
 }
